@@ -36,7 +36,7 @@ This project is an automated RFID-based attendance system that connects to micro
    - ​Paste the UIDs you collected in Step 3 into the UID column and fill out the corresponding student info.
 
 **5.  Main Firmware**
-   - Upload main.ino to your Arduino
+   - Upload main.ino to your Arduino (make sure GetUID.ino is removed in the Arduino IDE)
    - Once uploaded, the Serial Monitor should display "READY". Close the Serial Monitor before moving to the next step.
 
 **6. Python**
